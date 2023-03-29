@@ -1,0 +1,23 @@
+model : Datos, 
+
+controlador ---> farà de pont entre model i vista : controlador
+
+vista : iniciador, VistaClubUB (mercatUB), Menu, Excepció
+
+
+clubUB ja no existirà, ara hi haurà un controlador que ens permitirà comunicar-nos
+entre el model i la vista
+
+Articles-> String identificador, String nom, float Preu, boolean Urgent, int temps
+
+Clients (classe mare) -> String Email (únic), String Nom, String Adreça 
+2 tipus de clients:
+-estandard, no paga menusalitat 
+-premium, 4€/mes +descompte en els enviaments
+
+Comanda: Antrada? article, Clients client, int quantitatArticles, Date data
+2 tipus de comandes:
+-normal, triga 2 dies
+-urgent, triga 1 dia
+
+LLista <I> (pot ser de clients, d'articles o de comandes)
